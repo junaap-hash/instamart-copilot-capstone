@@ -1,0 +1,37 @@
+{
+  "run_id": "35e8c0b9b0954ad2a040df7abda6bb23",
+  "scenario_id": "S1_TIMEOUT",
+  "status": "FALLBACK_TIMEOUT",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Resolve refund requests using the supplied tools and policy. Only completed late orders qualify. Escalate amounts above INR 1000. Use tool observations and give a concise final status."
+    },
+    {
+      "role": "user",
+      "content": "My order ORD-100048 reached me very late. I would like a refund."
+    }
+  ],
+  "max_iterations": 6,
+  "token_limit": 6000,
+  "time_limit_seconds": 0,
+  "tokens_used": 0,
+  "llm_calls": 0,
+  "step_number": 0,
+  "steps": [],
+  "tools_executed": [],
+  "pending_tool_calls": [],
+  "llm_events": [],
+  "active_elapsed_seconds": 0.0,
+  "result": {
+    "run_id": "35e8c0b9b0954ad2a040df7abda6bb23",
+    "scenario_id": "S1_TIMEOUT",
+    "steps": [],
+    "llm_calls": 0,
+    "tokens_used": 0,
+    "llm_events": [],
+    "status": "FALLBACK_TIMEOUT",
+    "final_answer": "Human handoff: execution time limit reached. Scenario S1_TIMEOUT; completed tools: none; tokens used: 0.",
+    "refund_inr": 0.0
+  }
+}
