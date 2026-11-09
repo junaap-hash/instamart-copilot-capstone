@@ -1,5 +1,7 @@
 # Overview
 
+Created by Juna as part of Capstone submission for Applied AI & ML.
+
 Customer Intelligence & Support Copilot: a fictional Instamart capstone using synthetic data. Parts A–D are implemented. The foundation audits and cleans customer, product and order exports, stores them in SQLite, and performs seven SQL analyses with pandas cross-checks. Part B segments customers and predicts lapse using pre-cutoff behaviour; Part C masks and routes support tickets with guarded offline model calls; Part D answers policy questions and runs a bounded, resumable simulated refund agent. Money is INR throughout.
 
 This repository contains the code, data, SQL, required outputs and checkpoints for Parts A–D. All paths below are relative to the repository root. The supplied `generate_data.py` and `mock_llm.py` are retained unchanged. Model calls run offline; only dependency installation needs internet access.
